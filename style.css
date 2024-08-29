@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Moderustic", sans-serif;
+}
+a{
+    color: #FB771A;
+    cursor: pointer;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+:root{
+    --main-color:#FB771A;
+    --bl-color:#2222;
+    --white-color:#ffff;
+    --bk-color:gray;
+    --fontFamily:"Moderustic",
+        sans-serif;
+    --h1:1.3rem;
+    --p:1rem;
+    --fontWeight:700;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: ghostwhite;
+    background: url(./interior-design-with-photoframes-nice-chairs.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: start;
+}
+form h1{
+    margin-bottom: 50px ;
+}
+form p{
+    margin: 20px 0;
+    font-weight: 500;
+    color: #3e3b3bd4;
+}
+form{
+    width: 700px;
+    height: 100vh;
+    background-color: #808080c2;
+    background-color: #ffffffd9;
+    padding: 100px;
+    align-items: center;
+}
+label,input{
+    display: block;
+    padding: 15px 0px;
+    width: 100%;
+    border-radius: 5px;
+    font-size:1.2rem;
+}
+label{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+input{
+    padding: 15px 10px;
+    border: none;
+    outline-color: #FB771A;
+    background-color: #00000066;
+}
+.check_remember{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+input::placeholder{
+    color: gainsboro;
+}
+input[type="submit"]{
+    background-color: #fb771adb;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffff;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #FB771A;
+    transition: 0.3s;
+}
